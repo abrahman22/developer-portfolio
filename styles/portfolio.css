@@ -9,7 +9,8 @@ header & navigation styles
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 0px 100px;
+    padding-top: 40px;
 }
 
 .nav-title {
@@ -47,6 +48,7 @@ nav li {
     background-image: url('../images/header_bg_03_03.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    margin: 0;
     /* background-size: 50%, 5%; */
 }
 
@@ -128,24 +130,19 @@ main {
     margin-top: 130px;
 
 }
-
 .skills-container {
     display: flex;
     gap: 24px;
 }
-
 .skill .skill-title {
     font-size: 20px;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
-
 }
-
 .skill-description {
     color: green;
 }
-
 .skill {
     box-shadow: 0px 6px 50px #00000225;
     border-radius: 5px;
@@ -153,6 +150,10 @@ main {
 }
 
 /* Resume Section */
+.resume{
+    margin-top: 130px;
+}
+
 .resume-content {
     display: flex;
     gap: 25px;
@@ -183,4 +184,25 @@ main {
 .resume-btn{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: lightcyan;
+    padding: 130px 200px;
+    text-align: left;
+    margin-top: 130px;
+}
+.contact input, textarea {
+    width: 100%;
+}
+.contact .title{
+    font-size: 20px;
+    text-align: left;
+}
+.contact a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
 }
